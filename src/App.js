@@ -3,7 +3,6 @@ import Typography from "typography";
 import moragaTheme from "typography-theme-moraga";
 import WebFont from "webfontloader";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 WebFont.load({
@@ -31,19 +30,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p className="printOnly">
-          Este curriculo pode ser encontrado em:{" "}
-          <a href="https://ferreirararaphael.github.io/resume">
-            "https://ferreirararaphael.github.io/resume"
-          </a>
-        </p>
         <h1>
           <a id="Raphael_Ferreira_0" />Raphael Ferreira
         </h1>
         <blockquote>
           <p>
-            Estudante de Engenharia de Software<br />
-            Desenvolvedor Full-stack<br />
+            Software Engineering Student<br />
+            Full Stack Javascript Developer<br />
             Linkedin:{" "}
             <a href="https://www.linkedin.com/in/raphael-ferreira-28ab36138/">
               https://www.linkedin.com/in/raphael-ferreira-28ab36138/
@@ -53,107 +46,157 @@ class App extends Component {
             <a href="https://github.com/ferreiraraphael">
               https://github.com/ferreiraraphael
             </a>
+            <br />
+            E-mail:{" "}
+            <a href="mailto:raphaelbsferreira@gmail.com">
+              raphaelbsferreira@gmail.com
+            </a>
+            <br />
+            Phone: <a href="tel:+5562981010841">+55 (62) 98101-0841</a>
+            <br />
           </p>
         </blockquote>
-        <h3>
-          <a id="Formao_Academina_6" />Formação Academina
-        </h3>
-        <ul>
-          <li>
-            Cursando Engenharia de Software - Universidade Federal de Goiás
-            (UFG)
-          </li>
-          <li>Conclusão em: 2018/2</li>
-        </ul>
-        <h3>
-          <a id="Idiomas_10" />Idiomas
-        </h3>
-        <ul>
-          <li>Inglês</li>
-          <li>Espanhol</li>
-        </ul>
-        <h3>
-          <a id="Conhecimentos_14" />Conhecimentos
-        </h3>
-        <ul>
-          <li>Javascript (React, @angular/core, Vue, TypeScript, Jquery)</li>
-          <li>NodeJS (Express)</li>
-          <li>Ruby (Ruby on Rails)</li>
-          <li>C# (.Net 4)</li>
-          <li>PHP (Laravel)</li>
-          <li>HTML 5, CSS 3 (Sass, Less, Stylus)</li>
-          <li>
-            DevOps (Heroku, TravisCI, CircleCI, Shippable, Codacy, Coveralls)
-          </li>
-          <li>Testes (Mocha, Jest, Rspec)</li>
-        </ul>
-        <h3>
-          <a id="Experncia_Profissional_24" />Experência Profissional
-        </h3>
-        <blockquote>
+        <section>
+          <h3>About Me</h3>
           <p>
-            Desenvolvedor FullStack<br />
-            <strong>Workshow Produções Artísticas</strong> - Duração Março 2017
-            a Setembro 2017 - 7 meses.<br />
-            Goiânia e Região, Brasil<br />
-            Desenvolvimento e manutenção do site e Api Restfull do sistema{" "}
-            <a href="http://ouva.com.br/">http://ouva.com.br/</a>.<br />
-            Tecnologias utilizadas, C#( .Net ), Javascript( Jquery ), CSS (
-            Bootstrap ).
+            Software engineering student, that worked with a lot of languages
+            like, Java, C#, Ruby and even Visual Base, but tries to specialize
+            himself in Javascript. <br />
+            Currently working on the developing of Webapp and PWA's using
+            Angular@core and AngularJS and Services and REST API’s using Java
+            Spring and NodeJS.<br />
+            Always love to use React on my personal projects and I'm currently
+            studying Graphql and Serverless applications, checkout my github page:{" "}
+            <a href="https://github.com/ferreiraraphael">
+              https://github.com/ferreiraraphael
+            </a>
           </p>
-        </blockquote>
-        <blockquote>
+        </section>
+        <section>
+          <h3>
+            <a id="Formao_Academina_6" />Academic Education
+          </h3>
+          <ul>
+            <li>Software Engineering - Federal University of Goiás (UFG)</li>
+            <li>Conclusion in: 2018/2</li>
+          </ul>
+        </section>
+        <section>
+          <h3>
+            <a id="Conhecimentos_14" />Knowledge
+          </h3>
+          <ul>
+            <li>Javascript (React, Redux, Apollo, @angular/core, Vue, TypeScript, Jquery)</li>
+            <li>NodeJS (Express, GraphQl)</li>
+            <li>Java (Spring)</li>
+            <li>Ruby (Ruby on Rails)</li>
+            <li>C# (.Net 4)</li>
+            <li>PHP (Laravel)</li>
+            <li>HTML 5, CSS 3 (Sass, Less, Stylus)</li>
+            <li>
+              DevOps (Heroku, TravisCI, CircleCI, Shippable, Codacy, Coveralls)
+            </li>
+            <li>Testes (Mocha, Jest, Rspec, Jasmine, Protractor)</li>
+            <li>AWS (EC2, Lambda, S3, SNS)</li>
+          </ul>
+        </section>
+        <section>
+          <h3>
+            <a id="Experncia_Profissional_24" />Professional Experience
+          </h3>
+          <blockquote>
+            <p>
+              <strong>Oobj</strong> (<a href="https://www.oobj.com.br/">
+                https://www.oobj.com.br/
+              </a>) <br />
+              Full Stack Developer - Feb 2018 - Present<br />
+              Goiânia, Brazil<br />
+              <br />
+              Developer, responsible for making new features and maintaining old
+              ones.<br />
+              Development of features for a webapp, using Angular@core and
+              Angular JS.<br />
+              Development of front-end tests using Protractor, Jasmine and Karma
+              as a test runner. <br />
+              Usage of grunt and webpack for task running. <br />
+              Responsible for the migration of a webapp made on AngularJS for
+              the newest version of Angular@core.<br />
+              Development of features at a REST API, using Java Spring, Mongo
+              DB, MySQL and ActiveMQ. Development of unit and integration tests
+              using the Spring Framework. <br />
+              Development of services using Nodejs, Redis and PostgreSQL.
+            </p>
+          </blockquote>
+          <blockquote>
+            <p>
+              <strong>Workshow Produções Artísticas</strong> (<a href="http://www.workshow.com.br/">
+                http://www.workshow.com.br/
+              </a>) <br />
+              Full Stack Developer - Mar 2017 - Sep 2017 - 7 months.<br />
+              Goiânia, Brazil<br />
+              Development of the WebApp{" "}
+              <a href="https://skuta.com.br/">https://skuta.com.br/</a>. <br />
+              Working mostly on the front-end, but I also developing some
+              end-points in the Restfull API using technologies C#( .Net ) and
+              Javascript( Jquery ), CSS ( Bootstrap ) for the front-end.
+            </p>
+          </blockquote>
+          <blockquote>
+            <p>
+              <strong>Ideas To Bits</strong>
+              <br />
+              Full Stack Developer Freelancer (Remote) - Dez 2016 - Feb 2017 - 3
+              months.<br />
+              Goiânia, Brazil<br />
+              Developer responsible for making a REST API in Ruby on Rails, and
+              front-end on React, making unit and integration tests with Rspec
+              and Protractor, and maintaining the continuous integration and
+              deployment of the service, using Heroku and Circle CI.
+            </p>
+          </blockquote>
+          <blockquote>
+            <p>
+              <strong>Way Data Solution S/A</strong> (<a href="https://waydatasolution.com.br">
+                https://waydatasolution.com.br
+              </a>) <br />
+              Javascript Developer Internship - Nov 2015 - Novembro de 2016 - 1
+              ano 1 mês<br />
+              Goiânia, Brazil<br />
+              Development of new features and maintenance of a webapp.<br />
+              A WebApp specialized in managing the distribution and collection
+              of products, with tools such as routing and online monitoring of
+              deliveries, vehicle tracking and temperature control of the trunk
+              of the truck. <br />
+              Tools used in development ExtJS, Sass, Google Maps JS SDK.
+            </p>
+          </blockquote>
+          <blockquote>
+            <p>
+              <strong>Supera Tecnologia</strong> (<a href="https://www.supera.com.br/">
+                https://www.supera.com.br/
+              </a>) <br />
+              Developer Internship - Nov 2014 – Nov 2015 - 1 year<br />
+              Goiânia, Brazil<br />
+              Development and maintenance of internal company intranet web
+              applications and in client systems, using IBM's Lotus Notes tool,
+              which uses languages such as Javascript, Java and Visual Base.
+            </p>
+          </blockquote>
+        </section>
+        <section>
+          <p className="printOnly">
+            That resume can be found on:{" "}
+            <a href="https://ferreirararaphael.github.io/resume">
+              "https://ferreirararaphael.github.io/resume"
+            </a>
+          </p>
           <p>
-            Desenvolvedor FullStack<br />
-            <strong>Ideas To Bits</strong> - Duração Dezembro 2016 a Fevereiro
-            2017 - 3 meses.<br />
-            Goiânia e Região, Brasil<br />
-            Desenvolvimento e manutenção de sistemas web e API Restful em Ruby
-            on Rails, testes utilizando Rspec.<br />
-            Manutenção e desenvolvimento de front-end web utilizando Javascript(
-            ES6, React e Redux ).<br />
-            Integração continua e Deploy continuo utilizando Circle CI e Heroku.
+            This resume can be found on github:{" "}
+            <a href="https://github.com/FerreiraRaphael/resume">
+              "https://github.com/FerreiraRaphael/resume"
+            </a>
           </p>
-        </blockquote>
-        <blockquote>
-          <p>
-            Desenvolvedor Frontend<br />
-            <strong>Way Data Solution S/A</strong> - Duração Novembro de 2015 a
-            Novembro de 2016 - 1 ano 1 mês<br />
-            Goiânia e Região, Brasil<br />
-            Desenvolvimento de novas funcionalidades e manutenção do serviço
-            web, sistema especializado na gestão da distribuição e coleta de
-            produtos, com ferramentas como roteirização e monitoramento on-line
-            das entregas, rastreamento de veículo e controle de temperatura do
-            baú.<br />
-            Ferramentas utilizadas no desenvolvimento Javascript( ExtJS ), Sass,
-            Google Maps JS Api.
-          </p>
-        </blockquote>
-        <blockquote>
-          <p>
-            Estágio em Desenvolvimento<br />
-            <strong>Supera Tecnologia</strong> - Duração Novembro de 2014 –
-            Novembro de 2015 - 1 ano<br />
-            Goiânia e Região, Brasil<br />
-            Desenvolvimento e manutenção nos sistemas internos da empresa e em
-            sistemas de clientes, utilizando a ferramenta Lotus Notes da IBM,
-            que utiliza linguagens como Javascript, Java e Visual Base.
-          </p>
-        </blockquote>
-        <blockquote>
-          <p>
-            Estágio em Redes<br />
-            <strong>CERCOMP - UFG</strong> – Duração Julho de 2014 a Novembro de
-            2014 - 5 meses<br />
-            Goiânia e Região, Brasil<br />
-            Trabalhei como técnico de redes, atendendo chamados feitos ao
-            CERCOMP ( Centro de Recursos Computacionais ) da UFG, os chamados
-            envolviam problemas de rede e internet, manutenção e montagem de
-            estrutura de redes (gabinetes de switch’s) e configuração dos
-            mesmos.
-          </p>
-        </blockquote>
+        </section>
       </div>
     );
   }
