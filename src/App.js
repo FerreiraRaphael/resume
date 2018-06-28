@@ -30,9 +30,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>
-          <a id="Raphael_Ferreira_0" />Raphael Ferreira
-        </h1>
+        <h1>Raphael Ferreira</h1>
         <blockquote>
           <p>
             Software Engineering Student<br />
@@ -66,27 +64,27 @@ class App extends Component {
             Angular@core and AngularJS and Services and REST API’s using Java
             Spring and NodeJS.<br />
             Always love to use React on my personal projects and I'm currently
-            studying Graphql and Serverless applications, checkout my github page:{" "}
+            studying Graphql and Serverless applications, checkout my github
+            page:{" "}
             <a href="https://github.com/ferreiraraphael">
               https://github.com/ferreiraraphael
             </a>
           </p>
         </section>
         <section>
-          <h3>
-            <a id="Formao_Academina_6" />Academic Education
-          </h3>
+          <h3>Academic Education</h3>
           <ul>
             <li>Software Engineering - Federal University of Goiás (UFG)</li>
             <li>Conclusion in: 2018/2</li>
           </ul>
         </section>
         <section>
-          <h3>
-            <a id="Conhecimentos_14" />Knowledge
-          </h3>
+          <h3>Knowledge</h3>
           <ul>
-            <li>Javascript (React, Redux, Apollo, @angular/core, Vue, TypeScript, Jquery)</li>
+            <li>
+              Javascript (React, Redux, Apollo, @angular/core, Vue, TypeScript,
+              Jquery)
+            </li>
             <li>NodeJS (Express, GraphQl)</li>
             <li>Java (Spring)</li>
             <li>Ruby (Ruby on Rails)</li>
@@ -101,9 +99,7 @@ class App extends Component {
           </ul>
         </section>
         <section>
-          <h3>
-            <a id="Experncia_Profissional_24" />Professional Experience
-          </h3>
+          <h3>Professional Experience</h3>
           <blockquote>
             <p>
               <strong>Oobj</strong> (<a href="https://www.oobj.com.br/">
