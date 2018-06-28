@@ -155,8 +155,8 @@ class App extends Component {
               <strong>Way Data Solution S/A</strong> (<a href="https://waydatasolution.com.br">
                 https://waydatasolution.com.br
               </a>) <br />
-              Javascript Developer Internship - Nov 2015 - Novembro de 2016 - 1
-              ano 1 mês<br />
+              Javascript Developer Internship - Nov 2015 - Dez de 2016 - 1
+              year 1 month<br />
               Goiânia, Brazil<br />
               Development of new features and maintenance of a webapp.<br />
               A WebApp specialized in managing the distribution and collection
