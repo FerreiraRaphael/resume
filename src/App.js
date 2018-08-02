@@ -52,6 +52,8 @@ class App extends Component {
             <br />
             Phone: <a href="tel:+5562981010841">+55 (62) 98101-0841</a>
             <br />
+            Skype: raphaelbsferreira_1
+            <br />
           </p>
         </blockquote>
         <section>
@@ -75,7 +77,7 @@ class App extends Component {
           <h3>Academic Education</h3>
           <ul>
             <li>Software Engineering - Federal University of Goiás (UFG)</li>
-            <li>Conclusion in: 2018/2</li>
+            <li>Conclusion in: 2019/1</li>
           </ul>
         </section>
         <section>
@@ -95,7 +97,7 @@ class App extends Component {
               DevOps (Heroku, TravisCI, CircleCI, Shippable, Codacy, Coveralls)
             </li>
             <li>Testes (Mocha, Jest, Rspec, Jasmine, Protractor)</li>
-            <li>AWS (EC2, Lambda, S3, SNS)</li>
+            <li>AWS (EC2, Lambda, S3, SNS, RDS)</li>
           </ul>
         </section>
         <section>
